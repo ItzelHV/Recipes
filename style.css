@@ -1,0 +1,28 @@
+/*Some necessary adjustments*/
+h1,body,html,main {
+  margin: 5%;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+.contenedor{
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  background-color: white;
+  text-align: center;
+}
+.centrado{
+  position:absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+}
+.parrafo{
+  color: black;
+  text-align: center;
+}
